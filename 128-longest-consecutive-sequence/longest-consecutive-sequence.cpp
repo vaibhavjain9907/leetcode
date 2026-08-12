@@ -4,7 +4,6 @@ public:
         int n = nums.size();
         unordered_set<int>st;
         int longest = 1;
-        int cnt =0;
         if(n == 0){
             return 0;
         }
